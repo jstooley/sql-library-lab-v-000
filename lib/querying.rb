@@ -9,7 +9,7 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "SELECT species.value, species.count FROM species ORDER BY species.count DESC"
+  "SELECT species.value, species.count FROM species ORDER BY species.count DESC 1"
 end
 
 def select_name_and_series_subgenres_of_authors
